@@ -1,16 +1,5 @@
-f0=1
-f1=1
+from Fibonacci import Fibo
 
-def F(n):
-    A=f0
-    B=f1
-    for i in range(1,n):
-       C=B
-       B=B+A
-       A=C
-       
-    return B
-    
-print("The 10th, 20th and 30th Fibonacci numbers are respectively", F(10), F(20), F(30))
+print("The 10th, 20th and 30th Fibonacci numbers are respectively", Fibo(10)[0], F(ibo20)[0], Fibo(30)[0])
 
 
